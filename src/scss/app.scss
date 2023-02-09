@@ -1,0 +1,14 @@
+@import './utils/reset';
+@import './utils/flexBox';
+@import './utils/culori';
+
+#app {
+  @include flexBox(column, space-between, space-between);
+  gap: 1em;
+  background-color: $culoare9;
+}
+
+.numeBaraProduse {
+  align-self: center;
+  font-size: 4vw;
+}

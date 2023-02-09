@@ -1,0 +1,25 @@
+@import './utils/reset';
+@import './utils/flexBox';
+@import './utils/culori';
+@import './utils/font';
+
+.header {
+  @include flexBox(row, space-between, center);
+  background-color: $culoare8;
+  .logoIntoarcere {
+    font-size: 30px;
+    padding-left: 0.5em;
+  }
+  .containerButoane {
+    @include flexBox(row, flex-end, center);
+    .buton{
+      padding: 1em;
+    }
+    .buton:hover {
+      background-color: $culoare7;
+    }
+    .buton:active {
+      background-color: $culoare6;
+    }
+  }
+}

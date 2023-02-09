@@ -1,0 +1,9 @@
+@import './utils/flexBox';
+@import './utils/reset';
+@import './utils/culori';
+
+.containerCard {
+  @include flexBox(row, space-between, center);
+  background-color: $culoare8;
+  padding: 1em;
+}

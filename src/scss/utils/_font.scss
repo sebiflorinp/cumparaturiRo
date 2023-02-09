@@ -1,0 +1,10 @@
+@import './flexBox';
+
+* {
+  color: $culoare1;
+}
+
+.logo {
+  font-size: 7vw;
+  @include flexBox(row,center,center);
+}
