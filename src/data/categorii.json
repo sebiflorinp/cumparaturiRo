@@ -1,0 +1,8 @@
+[
+  {"idCategorie": 1, "nume": "Electronice"},
+  {"idCategorie": 2, "nume": "Haine"},
+  {"idCategorie": 3, "nume": "Masini"},
+  {"idCategorie": 4, "nume": "Jucarii"},
+  {"idCategorie": 5, "nume": "Carti"},
+  {"idCategorie": 6, "nume": "Imobiliare"}
+]

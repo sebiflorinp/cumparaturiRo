@@ -1,0 +1,49 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+* {
+  color: #F5F5F5;
+}
+
+.logo {
+  font-size: 7vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #424242;
+}
+.header .logoIntoarcere {
+  font-size: 30px;
+  padding-left: 0.5em;
+}
+.header .containerButoane {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header .containerButoane .buton {
+  padding: 1em;
+}
+.header .containerButoane .buton:hover {
+  background-color: #616161;
+}
+.header .containerButoane .buton:active {
+  background-color: #757575;
+}/*# sourceMappingURL=Header.css.map */

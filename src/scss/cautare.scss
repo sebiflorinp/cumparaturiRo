@@ -1,0 +1,24 @@
+@import './utils/reset';
+@import './utils/culori';
+@import './utils/flexBox';
+
+.containerAnunt {
+  @include flexBox(row, center, center);
+  background-color: $culoare8;
+  padding: 0.5em;
+  .textAnunt {
+    font-size: 40px;
+  }
+}
+
+.containerBaraDeCautare {
+  background-color: $culoare8;
+  padding: 0.5em;
+}
+
+.containerRezultat {
+  @include flexBox(row, flex-start, center);
+  background-color: $culoare8;
+  padding: 0.5em;
+  font-size: 26px;
+}

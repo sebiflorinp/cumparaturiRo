@@ -1,0 +1,5 @@
+[
+  {"idProdus": 1, "nume": "Pc", "idCategorie": 1, "pret": 1000},
+  {"idProdus": 2, "nume": "Masina de spalat", "idCategorie": 1, "pret": 2000},
+  {"idProdus": 3, "nume": "Tricou", "idCategorie": 2, "pret": 20}
+]

@@ -1,0 +1,28 @@
+@import './utils/reset';
+@import './utils/flexBox';
+@import './utils/culori';
+
+.card {
+  @include flexBox(column, space-around, center);
+  background-color: $culoare7;
+  padding: 1em;
+  border-radius: 17px;
+  min-height: 11vw;
+  gap: 0.2em;
+  img {
+    object-fit: cover;
+    max-width: 11vw;
+    min-height: 11vw;
+  }
+  .text {
+    font-size: 1.6vw;
+  }
+}
+
+.card:hover {
+  background-color: $culoare6;
+}
+
+.card:active {
+  background-color: $culoare5;
+}

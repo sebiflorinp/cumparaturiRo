@@ -1,0 +1,46 @@
+@import './utils/flexBox';
+@import './utils/reset';
+@import './utils/culori';
+@import './utils/font';
+
+$marime: 3em;
+
+.containerBaraCautare {
+  @include flexBox(row, center, center);
+  .baraCautare {
+    border-color: transparent;
+    min-height: $marime;
+    background-color: $culoare8;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    font-size: 20.5px;
+    outline: none;
+    min-width: 65vw;
+    padding:0.4em;
+  }
+
+  .img {
+    background-color: $culoare8;
+    min-height: $marime;
+    padding: 0.3em;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    .lupa {
+      background-color: $culoare8;
+      max-height: $marime;
+    }
+  }
+  .baraCautarePCautare {
+    min-width: 95vw;
+    background-color: $culoare7;
+    min-height: $marime - 1em;
+  }
+  .imgPCautare {
+    background-color: $culoare7;
+    min-height: $marime - 1em;
+    .lupa {
+      background-color: $culoare7;
+      max-height: $marime - 1.1em;
+    }
+  }
+}

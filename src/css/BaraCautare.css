@@ -1,0 +1,64 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+* {
+  color: #F5F5F5;
+}
+
+.logo {
+  font-size: 7vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerBaraCautare {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.containerBaraCautare .baraCautare {
+  border-color: transparent;
+  min-height: 3em;
+  background-color: #424242;
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+  font-size: 20.5px;
+  outline: none;
+  min-width: 65vw;
+  padding: 0.4em;
+}
+.containerBaraCautare .img {
+  background-color: #424242;
+  min-height: 3em;
+  padding: 0.3em;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+}
+.containerBaraCautare .img .lupa {
+  background-color: #424242;
+  max-height: 3em;
+}
+.containerBaraCautare .baraCautarePCautare {
+  min-width: 95vw;
+  background-color: #616161;
+  min-height: 2em;
+}
+.containerBaraCautare .imgPCautare {
+  background-color: #616161;
+  min-height: 2em;
+}
+.containerBaraCautare .imgPCautare .lupa {
+  background-color: #616161;
+  max-height: 1.9em;
+}/*# sourceMappingURL=BaraCautare.css.map */

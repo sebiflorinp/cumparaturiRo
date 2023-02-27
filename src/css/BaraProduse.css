@@ -1,0 +1,19 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.containerCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #424242;
+  padding: 1em;
+}/*# sourceMappingURL=BaraProduse.css.map */

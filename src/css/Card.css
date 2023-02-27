@@ -1,0 +1,39 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #616161;
+  padding: 1em;
+  border-radius: 17px;
+  min-height: 11vw;
+  gap: 0.2em;
+}
+.card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 11vw;
+  min-height: 11vw;
+}
+.card .text {
+  font-size: 1.6vw;
+}
+
+.card:hover {
+  background-color: #757575;
+}
+
+.card:active {
+  background-color: #9E9E9E;
+}/*# sourceMappingURL=Card.css.map */
